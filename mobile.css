@@ -1,0 +1,277 @@
+@media screen and (max-width:360px){
+	.menubar{
+		padding: 0px 30px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		line-height: 90px;
+		position: sticky;
+	}
+	.menu-links{
+		display: none;
+	}
+	.logo h1{
+		font-size: 30px;
+	}
+	.menubar .responsive{
+		display: block;
+		color: white;
+	}
+	.responsive-menu{
+		width: 100%;
+		height: auto;
+		padding: 0px;
+		text-align: center;
+		display: none;
+		position: absolute;
+		top: 90px;
+		z-index: 100;
+	}
+	.responsive-menu li{
+		width: 100%;
+		height: 50px;
+		background: #535456;
+		line-height: 50px;
+		transition: 0.2s;
+	}
+	.responsive-menu li a{
+		font-size: 19px;
+		color: white;
+	}
+	.responsive-menu li:hover{
+		background: #F57D3E;
+	}
+
+
+	.home-page{
+		height: 60vh;
+	}
+	.home-content{
+		padding: 0px 5px;
+	}
+	.home-content h4{
+		font-size: 16px;
+		margin-bottom: 20px;
+		text-transform: capitalize;
+	}
+	.home-content h1{
+		font-size: 28px;
+	}
+	.home-content button{
+		width: 120px;
+		height: 45px;
+		font-size: 14px;
+		padding: 5px;
+		text-transform: capitalize;
+		margin-right: 0px;
+	}
+	button:first-child{
+		border: 2px solid #F57D3E;
+	}
+	button:last-child{
+		border: 2px solid white;
+	}
+
+	.about-page{
+		width: 80%;
+		position: relative;
+		bottom: -50px;
+	}
+	.about-page .col3{
+		width: 350px;
+		padding: 30px 15px;
+		margin-bottom: 10px;
+	}
+
+
+
+	.class-page{
+		width: 100%;
+		margin-top: 1020px;
+	}
+	.title{
+		text-align: center;
+		font-size: 17px;
+		margin-bottom: 50px;
+	}
+	.class-col3{
+		width: 300px;
+		margin-bottom: 10px;
+		margin-right: 0px;
+	}
+
+
+
+
+	.discount-banner{
+		margin-top: 650px;
+	}
+	.discount-content h1{
+		font-size: 35px;
+	}
+	.discount-content h3{
+		font-size: 25px;
+		text-transform: capitalize;
+	}
+
+
+
+	.trainers{
+		margin: 50px auto;
+	}
+	.trainers .title{
+		font-size: 17px;
+	}
+	.trainer-col4{
+		margin: 10px;
+	}
+
+
+
+
+
+	.packages{
+		margin-top: 1000px;
+	}
+	.packages .title{
+		font-size: 17px;
+	}
+	.package-col3{
+		width: 300px;
+		height: 380px;
+	}
+	.package-col3 h1{
+		font-size: 30px;
+	}
+	.package-col3 h2{
+		font-size: 18px;
+	}
+
+
+
+
+
+	.advantages{
+		margin-top: 720px;
+		height: auto;
+		padding-bottom: 10px;
+	}
+	.advantages .title{
+		font-size: 17px;
+		padding-top: 30px;
+	}
+	.advantage-row{
+		margin-top: -20px;
+	}
+	.advantage-col{
+		width: 320px;
+		height: 100px;
+		padding: 0px 5px;
+	}
+	.advantage-col .left{
+		width: 50px;
+		height: 50px;
+	}
+	.left i{
+		line-height: 50px;
+		font-size: 25px;
+	}
+	.right{
+		margin-left: 60px;
+	}
+	.right h1{
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+	.right p{
+		font-size: 12px;
+	}
+
+
+
+
+
+
+
+	.gallery{
+		padding: 50px 0px;
+	}
+	.options{
+		margin-bottom: 30px;
+	}
+	.options button{
+		padding: 8px 12px;
+		border: 2px solid #F57D3E;
+		margin: 4px 2px;
+	}
+	.gallery-row{
+		width: 100%;
+	}
+
+
+
+
+
+
+
+	.healthy-tips{
+		width: 100%;
+		margin: 50px 0px;
+	}
+	.healthy-tips .title{
+		font-size: 17px;
+		margin-bottom:50px;
+	}
+	.tips-col3{
+		width: 300px;
+		height: 480px;
+		margin-bottom: 10px;
+		margin-right: 0px;
+	}
+	
+
+
+
+
+
+
+
+
+
+	.footer-page{
+		width: 100%;
+		height: auto;
+		padding: 30px 0px;
+		text-align: center;
+		margin-top: 900px;
+	}
+	.footer-row{
+		display: block;
+	}
+	.footer-col4{
+		width: 100%;
+	}
+	.logo h1{
+		font-size: 30px;
+	}
+	.footer-col4 p{
+		font-size: 15px;
+		padding: 0px 20px;
+	}
+	.footer-col4 h3{
+		font-size: 22px;
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+	.footer-col4 h3::after{
+		left: 50%;
+		transform: translate(-50%);
+	}
+	
+
+
+
+	.copyright{
+		font-size: 11px;
+	}
+}
